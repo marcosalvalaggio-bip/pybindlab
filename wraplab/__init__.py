@@ -1,11 +1,11 @@
-from engine import some_fn_python_name
+from engine import add
 
 def inside_init(a: int) -> int:
     return a * 10
 
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 
 __all__ = [
-    "some_fn_python_name",
+    "add",
     "inside_init"
 ]
